@@ -733,7 +733,7 @@ img.active4 {
         box-shadow: 0 0 20px rgba( 5,0,98, 0.5); 
     }
     100% {
-        box-shadow: 0 0 20px rgba( 97,164,228, 0.5);;
+        box-shadow: 0 0 20px rgba( 98,164,228, 0.5);;
     }
 }
 
@@ -762,7 +762,6 @@ img.active4 {
     }
 }
 
-
 @media only screen and (min-width: 768px) {
 
  }
@@ -771,4 +770,3 @@ img.active4 {
  @media only screen and (max-width: 767px) {
 
  }
- 
