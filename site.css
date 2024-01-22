@@ -157,6 +157,57 @@ footer {
     }
 
 }
+@media screen and (max-width: 1080px) {
+    header {
+        padding: 15px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .tp2 {
+        width: 85%;
+        margin: 0 auto; 
+    }
+
+    .portfolio-item {
+        width: 100%;
+        margin: 0 auto; 
+        padding-bottom: 300px; /* Ajustez la valeur en fonction de vos besoins */
+        margin-bottom: 50px; /* Ajustez la valeur en fonction de vos besoins */
+    }
+
+    .container {
+        margin-left: 20px; /* Ajustez la valeur en fonction de vos besoins */
+    }
+
+    .container2 {
+        position: relative;
+        left: -20px; /* Ajustez la valeur en fonction de vos besoins */
+    }
+
+    .bloc1, .bloc2 {
+        position: static; /* Modifié pour empêcher l'élément d'être positionné absolument */
+        width: auto; /* Ajustez la valeur en fonction de vos besoins */
+        height: auto; /* Ajustez la valeur en fonction de vos besoins */
+        top: auto; /* Ajustez la valeur en fonction de vos besoins */
+        right: auto; /* Ajustez la valeur en fonction de vos besoins */
+        left: auto; /* Ajustez la valeur en fonction de vos besoins */
+    }
+
+    .portfolio-item:nth-child(4) {
+        width: 100%;
+        margin: 0 auto; 
+        padding-bottom: 80px; /* Ajustez la valeur en fonction de vos besoins */
+        margin-bottom: 50px; /* Ajustez la valeur en fonction de vos besoins */
+    }
+
+    .logo img {
+        width: 5%;
+    }
+}
 
 #background-video {
     position: fixed;
