@@ -104,20 +104,6 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
-    header {
-        padding: 15px 0;
-    }
-
-    nav li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .dev-section {
-        flex-direction: column;
-    }
-}
 
 #background-video {
     position: fixed;
@@ -810,27 +796,6 @@ img.active4 {
 }
 
 
-html {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-@media screen and (max-width: 768px) {
-    .tp1, .tp2, .tp3, .tp4, .tp5, .tp61, .tp62, .tp63, .tp64, .tp71, .tp72, .tp73, .tp74, .gal {
-        font-size: 14px;
-    }
-    .slider img, .slider2 img, .slider3 img, .slider4 img {
-        width: 100%;
-        height: auto;
-    }
-    .btn-nav, .btn-nav2, .btn-nav3, .btn-nav4 {
-        font-size: 16px;
-    }
-    .landing-page, .dev-section, .dev-block, .content, footer {
-        width: 100%;
-    }
-}
 
 
 
