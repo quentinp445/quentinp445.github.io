@@ -104,7 +104,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     header {
         padding: 15px 0;
     }
@@ -113,34 +113,49 @@ footer {
         display: block;
         margin: 10px 0;
     }
-
-    .dev-section {
-        flex-direction: column;
+    .tp2 {
+        width: 85%;
+        margin: 0 auto; 
     }
-}
-
-@media screen and (max-width: 768px) {
-
-    .tp1, .tp2, .tp3, .tp4, .tp5, .tp61, .tp62, .tp63, .tp64, .tp71, .tp72, .tp73, .tp74, .gal {
-        font-size: 14px;
-    }
-    .slider img, .slider2 img, .slider3 img, .slider4 img {
+    .portfolio-item {
         width: 100%;
-        height: auto;
+        margin: 0 auto; 
+        padding-bottom: 500px;
+        margin-bottom: 100px;
+    }
+    .container{
+        margin-left: 65px;
+    }
+    .container2{
+        position: relative;
+        left: -155px;
+    }
+    .bloc1 {
+        position: absolute;
+        width: 480px;
+        height: 400px;
+        top: 2500px;
+        right: 145px;
     }
 
-    .btn-nav, .btn-nav2, .btn-nav3, .btn-nav4 {
-        font-size: 16px;
-    }
+    .bloc2 {
+        position: absolute;
+        width: 590px;
+        height: 430px;
+        top: 3775px;
+        left: 90px;
 
-    .landing-page, .dev-section, .dev-block, .content, footer {
+    }
+    .portfolio-item:nth-child(4) {
         width: 100%;
-        margin: 0;
+        margin: 0 auto; 
+        padding-bottom: 80px;
+        margin-bottom: 100px;
     }
     .logo img {
-        width: 50px; 
-        height: auto;
+        width: 5%;
     }
+
 }
 
 #background-video {
@@ -248,7 +263,6 @@ body {
 
 .container {
     max-width: 500px;
-    margin-right: 20px;
     padding: 10px;
 
 }
