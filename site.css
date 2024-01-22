@@ -86,6 +86,8 @@ nav a {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-color: #333;
     color: white;
@@ -130,6 +132,8 @@ footer {
 
 
 .landing-page {
+    display: flex;
+    justify-content: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
