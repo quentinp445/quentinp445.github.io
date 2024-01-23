@@ -157,57 +157,87 @@ footer {
     }
 
 }
-@media screen and (max-width: 1080px) {
-    header {
+
+@media screen and (max-width: 375px) {
+    .landing-page{
+        position: fixed;
         padding: 15px 0;
+    }
+    header {
+        display: flex;
+        justify-content: center;
     }
 
     nav li {
         display: block;
         margin: 10px 0;
     }
-
     .tp2 {
         width: 85%;
         margin: 0 auto; 
     }
-
     .portfolio-item {
         width: 100%;
         margin: 0 auto; 
-        padding-bottom: 300px; /* Ajustez la valeur en fonction de vos besoins */
-        margin-bottom: 50px; /* Ajustez la valeur en fonction de vos besoins */
+        padding-bottom: 500px;
+        margin-bottom: 100px;
     }
-
-    .container {
-        margin-left: 20px; /* Ajustez la valeur en fonction de vos besoins */
+    .container{
+        margin-left: 0px;
     }
-
-    .container2 {
+    .container2{
         position: relative;
-        left: -20px; /* Ajustez la valeur en fonction de vos besoins */
+        left: 10px;
+    }
+    .bloc1 {
+        position: absolute;
+        width: 279px;
+        height: 300px;
+        top: 2467px;
+        right: 48px;
     }
 
-    .bloc1, .bloc2 {
-        position: static; /* Modifié pour empêcher l'élément d'être positionné absolument */
-        width: auto; /* Ajustez la valeur en fonction de vos besoins */
-        height: auto; /* Ajustez la valeur en fonction de vos besoins */
-        top: auto; /* Ajustez la valeur en fonction de vos besoins */
-        right: auto; /* Ajustez la valeur en fonction de vos besoins */
-        left: auto; /* Ajustez la valeur en fonction de vos besoins */
-    }
+    .bloc2 {
+        position: absolute;
+        width: 283px;
+        height: 358px;
+        top: 3455px;
+        left: 46px;
 
-    .portfolio-item:nth-child(4) {
-        width: 100%;
+    }
+    .portfolio-item:nth-child(2) {
+        width: 80%;
         margin: 0 auto; 
-        padding-bottom: 80px; /* Ajustez la valeur en fonction de vos besoins */
-        margin-bottom: 50px; /* Ajustez la valeur en fonction de vos besoins */
+        padding-bottom: 320px;
+        margin-bottom: 60px;
     }
-
+    .portfolio-item:nth-child(3) {
+        width: 80%;
+        margin: 0 auto; 
+        padding-bottom: 393px;
+        margin-bottom: 40px;
+    }
+    .portfolio-item:nth-child(4) {
+        width: 80%;
+        margin: 0 auto; 
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+    }
+    .portfolio-item:nth-child(5) {
+        width: 80%;
+        margin: 0 auto; 
+        padding-bottom: 0px;
+        margin-bottom: 30px;
+    }
     .logo img {
         width: 5%;
     }
+    p {
+    font-size: 60%;
+    }
 }
+
+
 
 #background-video {
     position: fixed;
